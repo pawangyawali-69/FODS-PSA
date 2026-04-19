@@ -1,0 +1,10 @@
+1|Pawan|Admin|System Administrator|admin@school.edu|0000000000
+2_1|Sameer|Teacher|Sameer Shrestha|sameer95@gmail.com|
+1001|Utsav|Student|Utsav Niraula|utsav94@gmail.com|
+1177|Shovit|Student|Shovit Adhikari|shovit66@gmail.com|
+9988|Hritik|Student|Hritik Yadav||
+7766|Vicky|Student|Vicky Shah||
+5544|Abhishek|Student|Abhishek Bachhan||
+445533|Gaurav|Student|Gaurav Sitaula|gaurav55@gmail.com|
+445534_1|Alex|Teacher|Alex Poudel|alex94@gmail.com|
+445535_1|Dadiram|Teacher|Dadiram Basnet||

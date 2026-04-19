@@ -265,8 +265,7 @@ class Admin(Teacher):
                 return
             user_id = custom_id
         else:
-            base_id = db.get_new_user_id()
-            user_id = f"{base_id}_{self.id}"
+            user_id = db.get_new_user_id(role)
             
         db.add_user(user_id, username, role, name, email, phone)
         db.log_action(self.username, "USER_CREATED", f"{user_id}|{username}|{role}")

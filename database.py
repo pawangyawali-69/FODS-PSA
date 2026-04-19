@@ -307,14 +307,22 @@ class Database:
             return [s for s in students if s['id'] in eca_students]
         return [s for s in students if s['id'] not in eca_students]
     
-    def get_new_user_id(self):
-        """Generate and return a new unique user ID."""
+    def get_new_user_id(self, role=None):
+        """Generate and return a new unique user ID based on role-specific logic."""
         users = self.get_all_users()
         if not users:
             return "1"
         
+        if role in ['Admin', 'Teacher']:
+            target_users = [u for u in users if u['role'] in ['Admin', 'Teacher']]
+        else:
+            target_users = users
+            
+        if not target_users:
+            return "1"
+            
         max_id = 0
-        for u in users:
+        for u in target_users:
             uid = str(u['id'])
             if uid.isdigit():
                 val = int(uid)
@@ -326,6 +334,7 @@ class Database:
                     val = 0
             else:
                 val = 0
+                
             if val > max_id:
                 max_id = val
                 
