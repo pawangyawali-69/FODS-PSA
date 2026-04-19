@@ -1,0 +1,16 @@
+student_id,name,subject,score,date,teacher_id
+1001,Utsav Niraula,Mathematics,90.0,2026-04-19,1
+1001,Utsav Niraula,Science,70.0,2026-04-19,1
+1001,Utsav Niraula,English,60.0,2026-04-19,1
+1001,Utsav Niraula,Computer,50.0,2026-04-19,1
+1001,Utsav Niraula,Physics,36.0,2026-04-19,1
+1177,Shovit Adhikari,Mathematics,40.0,2026-04-19,1
+1177,Shovit Adhikari,Science,35.0,2026-04-19,1
+1177,Shovit Adhikari,English,36.0,2026-04-19,1
+1177,Shovit Adhikari,Computer,42.0,2026-04-19,1
+1177,Shovit Adhikari,Physics,45.0,2026-04-19,1
+1004,,Mathematics,40.0,2026-04-19,1
+1004,,Science,40.0,2026-04-19,1
+1004,,English,40.0,2026-04-19,1
+1004,,Computer,40.0,2026-04-19,1
+1004,,Physics,40.0,2026-04-19,1

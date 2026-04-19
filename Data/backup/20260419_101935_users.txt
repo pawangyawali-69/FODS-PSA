@@ -1,0 +1,2 @@
+1|Pawan|Admin|System Administrator|admin@school.edu|0000000000
+2_1|Sameer|Teacher|Sameer Shrestha|sameer95@gmail.com|
